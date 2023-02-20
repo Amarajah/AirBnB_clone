@@ -33,3 +33,43 @@
     font weight: 400;
     font size: 14px;
 }
+.locations {
+  position: relative;
+}
+.popover {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #FAFAFA;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.locations:hover .popover {
+  display: block;
+}
+
+.popover li {
+  list-style: none;
+}
+
+.popover h2 {
+  font-size: 16px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.popover ul {
+  margin: 0;
+  padding: 0;
+}
+
+.popover ul li {
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+}
